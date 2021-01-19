@@ -2,7 +2,6 @@ import time
 
 window.activate('gedit', switchDesktop=True)
 window.resize_move('gedit', xOrigin=0, yOrigin=0, width=200, height=200, matchClass=False)
-keyboard.send_keys("<alt>+<F8>")
 
 keyboard.press_key('<alt>')
 keyboard.press_key('<f8>')
